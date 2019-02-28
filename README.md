@@ -6,6 +6,8 @@ You can use the [editor on GitHub](https://github.com/mcneel/architecture-guide/
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+To setup Github Pages locally and install [Jekyll locally on Windows follow these instructions](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
