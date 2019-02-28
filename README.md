@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to the Rhino Architecture guide on GitHub Pages
+
+The address for the guide is https://mcneel.github.io/architecture-guide/
 
 You can use the [editor on GitHub](https://github.com/mcneel/architecture-guide/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
