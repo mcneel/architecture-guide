@@ -11,7 +11,7 @@ nwo: "mcneel/architecture-guide" # github repository (name with owner)
 # twitter_username: ""
 github_username:  mcneel
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 
 
 # RhinoScriptSyntax API docs
