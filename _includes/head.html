@@ -12,7 +12,7 @@
   <meta property="og:title" content="{{ page.title }}" />
   <meta property="og:description" content="{{ page.description }}" />
   <meta property=”og:site_name” content="developer.rhino3d.com"/>
-  <meta property=”og:image” content="http://developer.rhino3d.com/images/rhinodev-logo-unfurl.png"/>
+  <meta property=”og:image” content="https://developer.rhino3d.com/images/rhinodev-logo-unfurl.png"/>
 
   <!-- twitter card tags additive with the og: tags -->
   <meta name="twitter:domain" value="developer.rhino3d.com" />
@@ -20,14 +20,14 @@
   <meta name="twitter:description" value="{{ page.description }}" />
   {% if page.apis %}
     {% if page.apis contains 'Grasshopper' %}
-      <meta name="twitter:image" content="http://developer.rhino3d.com/images/grasshopper-logo-unfurl.png" />
+      <meta name="twitter:image" content="https://developer.rhino3d.com/images/grasshopper-logo-unfurl.png" />
     {% else %}
-      <meta name="twitter:image" content="http://developer.rhino3d.com/images/rhinodev-logo-unfurl.png" />
+      <meta name="twitter:image" content="https://developer.rhino3d.com/images/rhinodev-logo-unfurl.png" />
     {% endif %}
   {% else %}
-    <meta name="twitter:image" content="http://developer.rhino3d.com/images/rhinodev-logo-unfurl.png" />
+    <meta name="twitter:image" content="https://developer.rhino3d.com/images/rhinodev-logo-unfurl.png" />
   {% endif %}
-  <meta name="twitter:url" value="http://developer.rhino3d.com" />
+  <meta name="twitter:url" value="https://developer.rhino3d.com" />
   {% if page.platforms %}
   <meta name="twitter:label1" value="Platform(s)" />
   <meta name="twitter:data1" value="{{ page.platforms | join: ', ' }}" />
@@ -61,7 +61,7 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <link rel="shortcut icon" href="http://developer.rhino3d.com/favicon.ico?v=2" />
+  <link rel="shortcut icon" href="https://developer.rhino3d.com/favicon.ico?v=2" />
   <!-- Saving bookmarks to mobile devices -->
   <!-- For non-Retina (@1× display) iPhone, iPod Touch, and Android 2.1+ devices: -->
   <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/images/apple-touch-icon-precomposed.png"><!-- 57×57px -->
