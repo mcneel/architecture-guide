@@ -9,3 +9,7 @@ layout: fullwidth-page
 <div>
   <img src="{{ site.baseurl }}/images/title-image.png">
 </div>
+
+## Languages available:
+
+- [English Guide]({{site.baseurl}}/en/guides/1-creating-usable-blocks.html)
