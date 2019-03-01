@@ -11,4 +11,37 @@ nwo: "mcneel/architecture-guide" # github repository (name with owner)
 # twitter_username: ""
 github_username:  mcneel
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
+
+
+# RhinoScriptSyntax API docs
+rss_show_bad_docstring: true
+rss_show_missing_examples_links: false
+
+# Build settings
+#markdown: redcarpet
+
+# If we decide that we want to use kramdown over redcarpet, syntax
+# highlighting is performed by turning on the following options and
+# including/running highlight.js (https://highlightjs.org/) at the
+# top of pages that need it (probably just add to head.html)
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+      disable: true
+plugins:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+#port: 4444
+
+safe: true
+
+collections:
+ - en
+
+collections:
+  en:
+    output: true
+    permalink: /en/:path 
